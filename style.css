@@ -1,0 +1,82 @@
+/* style.css */
+
+/* Gaya untuk judul h1 */
+h1 {
+  text-align: center;
+}
+
+/* Gaya untuk tautan a */
+/* a {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+} */
+
+/* Gaya untuk tabel */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+/* Gaya untuk memberikan jarak antara konten dan navbar */
+.content-container {
+  margin-bottom: 20px;
+}
+
+/* Gaya untuk memberikan jarak antara konten dan footer */
+footer.footer {
+  margin-top: 20px;
+}
+
+/* Warna kustom untuk header tabel */
+.custom-table-header {
+  background-color: #66B3FF !important; /* Ganti dengan kode hex yang diinginkan */
+  color: #FFFFFF; /* Warna teks pada header */
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+footer.footer {
+  padding-top: 20px;
+}
+
+.login-area {
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+/* Gaya tambahan untuk about.php */
+.container.bg-light {
+  background-color: #f8f9fa; /* Ganti dengan kode hex yang diinginkan */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Gaya tambahan untuk body */
+.bg-custom {
+  background-color: #d9f5fa;
+  background-size: cover;
+}
+
