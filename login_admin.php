@@ -6,9 +6,9 @@ include "header.php";
 function connectDatabase()
 {
     $host = 'localhost';
-    $user = 'root';
-    $password = '';
-    $database = 'penyewaan_gereja';
+    $user = 'id20884196_user_penyewaan';
+    $password = 'Db_User_Penyewaan_Gereja_12345';
+    $database = 'id20884196_penyewaan_gereja';
 
     $conn = mysqli_connect($host, $user, $password, $database);
     if (!$conn) {

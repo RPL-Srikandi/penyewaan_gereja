@@ -3,7 +3,7 @@
 
 <?php
 // Koneksi ke database
-$connection = mysqli_connect("localhost", "root", "", "penyewaan_gereja");
+$connection = mysqli_connect("localhost", "id20884196_user_penyewaan", "Db_User_Penyewaan_Gereja_12345", "id20884196_penyewaan_gereja");
 
 // Memeriksa koneksi
 if (mysqli_connect_errno()) {

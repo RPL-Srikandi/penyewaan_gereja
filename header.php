@@ -53,7 +53,7 @@ function active($currect_page){
         </ul>
         <?php if (isset($_SESSION['admin'])) { ?>
 <?php
-    $conn = mysqli_connect("localhost", "root", "", "penyewaan_gereja");
+    $conn = mysqli_connect("localhost", "id20884196_user_penyewaan", "Db_User_Penyewaan_Gereja_12345", "id20884196_penyewaan_gereja");
     if (mysqli_connect_errno()) {
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
     }
