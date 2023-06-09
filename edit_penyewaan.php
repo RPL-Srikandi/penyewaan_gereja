@@ -1,6 +1,15 @@
 <?php $title="Edit Penyewaan - Penyewaan Ruangan Gereja"; ?>
     <?php include "header.php"?>
 
+    <?php 
+    // Memeriksa apakah pengguna telah login
+    if (!isset($_SESSION["admin"])) {
+        header("Location: login_admin.php");
+        exit();
+    }
+
+    ?>
+
     <div class="container">
         <h1>Edit Penyewaan</h1>
 

@@ -1,5 +1,12 @@
 <?php $title = "Kritik & Saran"; ?>
 <?php include "header.php"; ?>
+<?php
+// Memeriksa apakah pengguna telah login
+if (!isset($_SESSION["admin"])) {
+    header("Location: login_admin.php");
+    exit();
+}
+?>
 
 <?php
     $row = null;

@@ -1,3 +1,7 @@
+<?php 
+error_reporting(E_ERROR | E_PARSE);
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,11 +14,6 @@
 </head>
 <body>
 <?php
-// Memeriksa apakah sesi sudah dimulai
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-
 function active($currect_page){
     $url_array =  explode('/', $_SERVER['REQUEST_URI']) ;
     $url = end($url_array);  

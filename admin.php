@@ -1,5 +1,7 @@
+<?php $title = "Admin - Penyewaan Ruangan Gereja"; ?>
+<?php include "header.php"?>
 <?php
-session_start();
+// session_start();
 
 // Fungsi untuk melakukan koneksi ke database
 function connectDatabase()
@@ -35,9 +37,6 @@ function total_harga($tanggal, $waktu_mulai, $waktu_selesai, $harga, $waktu) {
 }
 
 ?>
-
-<?php $title = "Admin - Penyewaan Ruangan Gereja"; ?>
-<?php include "header.php"?>
 
 <div class="container">
     <h1>Admin - Penyewaan Ruangan Gereja</h1>
