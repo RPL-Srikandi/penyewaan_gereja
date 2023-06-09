@@ -3,6 +3,8 @@
 <?php
 // Memeriksa apakah pengguna telah login
 if (!isset($_SESSION["admin"])) {
+    ob_end_clean();
+    ob_end_flush();
     header("Location: login_admin.php");
     exit();
 }

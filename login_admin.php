@@ -56,6 +56,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (md5($input_password) == $user['password']) {
             // Jika username dan password benar, set session admin dan redirect ke halaman admin
             setAdminSession($input_username);
+            ob_end_clean();
+            ob_end_flush();
             header("Location: admin.php");
             exit();
         }

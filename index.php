@@ -1,5 +1,5 @@
 <?php $title="Home - Penyewaan Ruangan Gereja"; ?>
-    <?php include "header.php"?>
+<?php include "header.php"?>
 
     <!-- Carousel -->
     <div id="demo" class="carousel slide" data-bs-ride="carousel">

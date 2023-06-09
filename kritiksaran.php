@@ -1,5 +1,5 @@
 <?php $title="Kritik dan Saran - Penyewaan Ruangan Gereja"; ?>
-    <?php include "header.php"?>
+<?php include "header.php"?>
 
 <?php
 // Koneksi ke database
@@ -37,7 +37,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sucess = 0; // = "Mohon lengkapi semua field.";
     }
 
+    
+    ob_end_clean();
+    ob_end_flush();
     header("Location: kritiksaran.php?s=$sucess");
+    exit();
 }
 
 // Menutup koneksi
